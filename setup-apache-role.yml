@@ -1,0 +1,6 @@
+---
+- name: this playbook executes roles
+  hosts: nodes
+  become: true
+  roles:
+    - setup-apache
